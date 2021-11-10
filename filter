@@ -18,3 +18,6 @@ observador.pt##body.premium-article:not(.premium-user) .article-block:style(opac
 
 ! 2021-09-04 https://www.gazetadopovo.com.br
 ||tinypass.com/
+
+! 2021-11-10 https://www.tudocelular.com
+www.tudocelular.com##a.embed-news-item
