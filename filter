@@ -22,3 +22,6 @@ observador.pt##body.premium-article:not(.premium-user) .article-block:style(opac
 
 ! 2021-11-10 https://www.tudocelular.com
 www.tudocelular.com##a.embed-news-item
+
+! 2021-12-17 https://www.noticiasaominuto.com
+www.noticiasaominuto.com##.ultima-hora.tap-article.tap.article-thumb-block.col-xs-12.col-sm-6.col-md-6.col-lg-4
