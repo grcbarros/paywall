@@ -9,6 +9,7 @@ mundoconectado.com.br##.card
 www1.folha.uol.com.br##+js(rc, col-offset--lg-5-18|col--lg-12-18|col--lg-10-15)
 www1.folha.uol.com.br##.rs_skip.u-no-print.col-fixed--md-300.col-fixed
 www1.folha.uol.com.br##.u-visible-md.col-fixed--md-300.col-fixed
+www1.folha.uol.com.br##.block--pub-super.block
 
 ! https://observador.pt
 observador.pt##body.premium-article:not(.premium-user) .article-body p:not(:first-child):style(opacity: 1 !important; visibility: visible !important;)
