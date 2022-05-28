@@ -4,24 +4,29 @@ adrenaline.com.br##.mb-3.mt-3
 ! https://mundoconectado.com.br
 mundoconectado.com.br##.card
 
-! https://www1.folha.uol.com.br
+! https://folha.uol.com.br
 //paywall.folha.uol.com.br/wall.js
 folha.uol.com.br##+js(rc, col-offset--lg-5-18|col--lg-12-18|col--lg-10-15)
 folha.uol.com.br##.rs_skip.u-no-print.col-fixed--md-300.col-fixed
 folha.uol.com.br##.u-visible-md.col-fixed--md-300.col-fixed
 folha.uol.com.br##.block--pub-super.block
 
-! https://observador.pt
-observador.pt##body.premium-article:not(.premium-user) .article-body p:not(:first-child):style(opacity: 1 !important; visibility: visible !important;)
-observador.pt##body.premium-article:not(.premium-user) .article-body:not(:first-child):style(opacity: 1 !important; visibility: visible !important;)
-observador.pt##body.premium-article:not(.premium-user) .article-block:style(opacity: 1 !important; visibility: visible !important;)
 
 ! https://gazetadopovo.com.br
 gazetadopovo.com.br##+js(rc, col-8)
 gazetadopovo.com.br##.md-post-aside
 
-! 2021-11-10 https://www.tudocelular.com
-www.tudocelular.com##a.embed-news-item
+! https://tudocelular.com
+tudocelular.com##+js(rc, content|top_image, div)
+tudocelular.com###notice_content > aside
+tudocelular.com##iframe:style(display: block !important;  margin-left: auto !important;  margin-right: auto !important;)
+tudocelular.com##img:style(display: block !important;  margin-left: auto !important;  margin-right: auto !important;)
+tudocelular.com##.fancybox:style(width: 100% !important)
 
-! 2021-12-17 https://www.noticiasaominuto.com
-www.noticiasaominuto.com##.ultima-hora.tap-article.tap.article-thumb-block.col-xs-12.col-sm-6.col-md-6.col-lg-4
+! https://noticiasaominuto.com
+noticiasaominuto.com##.hidden-xs
+
+! https://observador.pt
+observador.pt##body.premium-article:not(.premium-user) .article-body p:not(:first-child):style(opacity: 1 !important; visibility: visible !important;)
+observador.pt##body.premium-article:not(.premium-user) .article-body:not(:first-child):style(opacity: 1 !important; visibility: visible !important;)
+observador.pt##body.premium-article:not(.premium-user) .article-block:style(opacity: 1 !important; visibility: visible !important;)
