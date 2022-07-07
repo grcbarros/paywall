@@ -11,7 +11,6 @@ folha.uol.com.br##.rs_skip.u-no-print.col-fixed--md-300.col-fixed
 folha.uol.com.br##.u-visible-md.col-fixed--md-300.col-fixed
 folha.uol.com.br##.block--pub-super.block
 
-
 ! https://gazetadopovo.com.br
 gazetadopovo.com.br##+js(rc, col-8)
 gazetadopovo.com.br##.md-post-aside
@@ -22,6 +21,14 @@ tudocelular.com###notice_content > aside
 tudocelular.com##iframe:style(display: block !important;  margin-left: auto !important;  margin-right: auto !important;)
 tudocelular.com##img:style(display: block !important;  margin-left: auto !important;  margin-right: auto !important;)
 tudocelular.com##.fancybox:style(width: 100% !important)
+
+! https://www.techtudo.com.br
+www.techtudo.com.br##div[data-block-type^="ads"]
+www.techtudo.com.br##span[id="ad-text-info"]
+www.techtudo.com.br##.content__share-bar
+www.techtudo.com.br##.ad-background-center
+www.techtudo.com.br##.banner-top
+www.techtudo.com.br###ad-container-top-placeholder:style(height: 15px !important)
 
 ! https://noticiasaominuto.com
 noticiasaominuto.com##.hidden-xs
