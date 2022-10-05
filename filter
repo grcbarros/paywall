@@ -3,6 +3,7 @@ adrenaline.com.br##.mb-3.mt-3
 
 ! https://mundoconectado.com.br
 mundoconectado.com.br##.card
+mundoconectado.com.br###bottomAd
 
 ! https://folha.uol.com.br
 //paywall.folha.uol.com.br/wall.js
@@ -21,14 +22,15 @@ tudocelular.com###notice_content > aside
 tudocelular.com##iframe:style(display: block !important;  margin-left: auto !important;  margin-right: auto !important;)
 tudocelular.com##img:style(display: block !important;  margin-left: auto !important;  margin-right: auto !important;)
 tudocelular.com##.fancybox:style(width: 100% !important)
+tudocelular.com##.ads_container_top
 
 ! https://www.techtudo.com.br
-www.techtudo.com.br##div[data-block-type^="ads"]
-www.techtudo.com.br##span[id="ad-text-info"]
-www.techtudo.com.br##.content__share-bar
-www.techtudo.com.br##.ad-background-center
-www.techtudo.com.br##.banner-top
-www.techtudo.com.br###ad-container-top-placeholder:style(height: 15px !important)
+techtudo.com.br##div[data-block-type^="ads"]
+techtudo.com.br##span[id="ad-text-info"]
+techtudo.com.br##.content__share-bar
+techtudo.com.br##.ad-background-center
+techtudo.com.br##.banner-top
+techtudo.com.br###ad-container-top-placeholder:style(height: 15px !important)
 
 ! https://noticiasaominuto.com
 noticiasaominuto.com##.hidden-xs
@@ -38,3 +40,14 @@ noticiasaominuto.com##div[id*="popout"]
 observador.pt##body.premium-article:not(.premium-user) .article-body p:not(:first-child):style(opacity: 1 !important; visibility: visible !important;)
 observador.pt##body.premium-article:not(.premium-user) .article-body:not(:first-child):style(opacity: 1 !important; visibility: visible !important;)
 observador.pt##body.premium-article:not(.premium-user) .article-block:style(opacity: 1 !important; visibility: visible !important;)
+
+! https://gizmodo.uol.com.br
+gizmodo.uol.com.br##.foo_related_posts
+
+! https://g1.globo.com
+g1.globo.com##.content__share-bar
+g1.globo.com##.publicidade-banner_materia_topo.publicidade
+g1.globo.com##div[data-block-type^="ads"]
+
+! https://olhardigital.com.br
+olhardigital.com.br##.wp-embed-responsive.post-content > .publicidade
